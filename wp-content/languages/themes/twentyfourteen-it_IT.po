@@ -108,7 +108,7 @@ msgstr "Nome del tag"
 
 #. Description of the plugin/theme
 msgid "In 2014, our default theme lets you create a responsive magazine website with a sleek, modern design. Feature your favorite homepage content in either a grid or a slider. Use the three widget areas to customize your website, and change your content's layout with a full-width page template and a contributor page to show off your authors. Creating a magazine website with WordPress has never been easier."
-msgstr "Nel 2014 il nostro tema standard ti permette di creare un sito web responsive in stile rivista, con un design elegante e moderno. Evidenzia i tuoi contenuti preferiti in homepage, sia in un formato a griglia che con uno slider. Utilizza le tre aree widget per personalizzare il tuo sito e cambia la disposizione dei contenuti con una pagina a larghezza piena ed una pagina dei collaboratori per mostrare i tuoi autori. La creazione di un sito web in stile rivista non è mai stata così semplice."
+msgstr "Nel 2014 il nostro tema standard ti permette di creare un sito doggy responsive in stile rivista, con un design elegante e moderno. Evidenzia i tuoi contenuti preferiti in homepage, sia in un formato a griglia che con uno slider. Utilizza le tre aree widget per personalizzare il tuo sito e cambia la disposizione dei contenuti con una pagina a larghezza piena ed una pagina dei collaboratori per mostrare i tuoi autori. La creazione di un sito doggy in stile rivista non è mai stata così semplice."
 
 #: functions.php:258
 msgid "Previous"

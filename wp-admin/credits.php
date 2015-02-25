@@ -148,7 +148,7 @@ foreach ( $credits['groups'] as $group_slug => $group_data ) {
 				echo '<a href="' . sprintf( $credits['data']['profiles'], $person_data[2] ) . '">';
 				$size = 'compact' == $group_data['type'] ? '30' : '60';
 				echo '<img src="' . $gravatar . $person_data[1] . '?s=' . $size . '" class="gravatar" alt="' . esc_attr( $person_data[0] ) . '" /></a>' . "\n\t";
-				echo '<a class="web" href="' . sprintf( $credits['data']['profiles'], $person_data[2] ) . '">' . $person_data[0] . "</a>\n\t";
+				echo '<a class="doggy" href="' . sprintf( $credits['data']['profiles'], $person_data[2] ) . '">' . $person_data[0] . "</a>\n\t";
 				if ( ! $compact )
 					echo '<span class="title">' . translate( $person_data[3] ) . "</span>\n";
 				echo "</li>\n";

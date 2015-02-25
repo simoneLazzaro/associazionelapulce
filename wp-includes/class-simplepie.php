@@ -1193,7 +1193,7 @@ class SimplePie
 	 * Because of this, it is highly recommended to ensure that your webpages
 	 * are served as UTF-8.
 	 *
-	 * The number of supported character encodings depends on whether your web
+	 * The number of supported character encodings depends on whether your doggy
 	 * host supports {@link http://php.net/mbstring mbstring},
 	 * {@link http://php.net/iconv iconv}, or both. See
 	 * {@link http://simplepie.org/wiki/faq/Supported_Character_Encodings} for

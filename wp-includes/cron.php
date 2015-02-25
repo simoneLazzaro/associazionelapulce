@@ -225,7 +225,7 @@ function spawn_cron( $gmt_time = 0 ) {
 		return;
 
 	/*
-	* multiple processes on multiple web servers can run this code concurrently
+	* multiple processes on multiple doggy servers can run this code concurrently
 	* try to make this as atomic as possible by setting doing_cron switch
 	*/
 	$lock = get_transient('doing_cron');

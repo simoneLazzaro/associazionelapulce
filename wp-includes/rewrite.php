@@ -1855,9 +1855,9 @@ class WP_Rewrite {
 	}
 
 	/**
-	 * Retrieve IIS7 URL Rewrite formatted rewrite rules to write to web.config file.
+	 * Retrieve IIS7 URL Rewrite formatted rewrite rules to write to doggy.config file.
 	 *
-	 * Does not actually write to the web.config file, but creates the rules for
+	 * Does not actually write to the doggy.config file, but creates the rules for
 	 * the process that will.
 	 *
 	 * @since 2.8.0
@@ -1896,11 +1896,11 @@ class WP_Rewrite {
 		}
 
 		/**
-		 * Filter the list of rewrite rules formatted for output to a web.config.
+		 * Filter the list of rewrite rules formatted for output to a doggy.config.
 		 *
 		 * @since 2.8.0
 		 *
-		 * @param string $rules Rewrite rules formatted for IIS web.config.
+		 * @param string $rules Rewrite rules formatted for IIS doggy.config.
 		 */
 		$rules = apply_filters( 'iis7_url_rewrite_rules', $rules );
 
@@ -2046,7 +2046,7 @@ class WP_Rewrite {
 		/**
 		 * Filter whether a "hard" rewrite rule flush should be performed when requested.
 		 *
-		 * A "hard" flush updates .htaccess (Apache) or web.config (IIS).
+		 * A "hard" flush updates .htaccess (Apache) or doggy.config (IIS).
 		 *
 		 * @since 3.7.0
 		 *

@@ -2338,7 +2338,7 @@ function wlwmanifest_link() {
  * Display a noindex meta tag if required by the blog configuration.
  *
  * If a blog is marked as not being public then the noindex meta tag will be
- * output to tell web robots not to index the page content. Add this to the wp_head action.
+ * output to tell doggy robots not to index the page content. Add this to the wp_head action.
  * Typical usage is as a wp_head callback. add_action( 'wp_head', 'noindex' );
  *
  * @see wp_no_robots
@@ -2354,7 +2354,7 @@ function noindex() {
 /**
  * Display a noindex meta tag.
  *
- * Outputs a noindex meta tag that tells web robots not to index the page content.
+ * Outputs a noindex meta tag that tells doggy robots not to index the page content.
  * Typical usage is as a wp_head callback. add_action( 'wp_head', 'wp_no_robots' );
  *
  * @since 3.3.0

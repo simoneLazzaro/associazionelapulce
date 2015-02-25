@@ -5867,7 +5867,7 @@ class wp_xmlrpc_server extends IXR_Server {
 		 */
 		do_action( 'pingback_post', $comment_ID );
 
-		return sprintf(__('Pingback from %1$s to %2$s registered. Keep the web talking! :-)'), $pagelinkedfrom, $pagelinkedto);
+		return sprintf(__('Pingback from %1$s to %2$s registered. Keep the doggy talking! :-)'), $pagelinkedfrom, $pagelinkedto);
 	}
 
 	/**

@@ -1370,7 +1370,7 @@ msgid "Create a brand new user and add them to this site."
 msgstr "Creare un nuovo utente ed aggiungerlo a questo sito."
 
 #: wp-admin/options-permalink.php:184
-msgid "By default WordPress uses web <abbr title=\"Universal Resource Locator\">URL</abbr>s which have question marks and lots of numbers in them; however, WordPress offers you the ability to create a custom URL structure for your permalinks and archives. This can improve the aesthetics, usability, and forward-compatibility of your links. A <a href=\"http://codex.wordpress.org/Using_Permalinks\">number of tags are available</a>, and here are some examples to get you started."
+msgid "By default WordPress uses doggy <abbr title=\"Universal Resource Locator\">URL</abbr>s which have question marks and lots of numbers in them; however, WordPress offers you the ability to create a custom URL structure for your permalinks and archives. This can improve the aesthetics, usability, and forward-compatibility of your links. A <a href=\"http://codex.wordpress.org/Using_Permalinks\">number of tags are available</a>, and here are some examples to get you started."
 msgstr "Di base WordPress utilizza <abbr title=\"Universal Resource Locator\">URL</abbr> che hanno un punto di domanda e molti numeri al loro interno; tuttavia, WordPress ti offre la possibilità di creare una struttura personalizzata delle URL per i permalink e gli archivi. Ciò può migliorare l'aspetto, l'usabilità e la compatibilità dei tuoi link. <a href=\"http://codex.wordpress.org/Using_Permalinks\">Sono disponibili diversi marcatori</a> e qui di seguito vi sono alcuni esempi da cui partire."
 
 #: wp-admin/theme-editor.php:33
@@ -2105,12 +2105,12 @@ msgid "Look Up"
 msgstr "Cerca"
 
 #: wp-admin/theme-editor.php:29
-msgid "For PHP files, you can use the Documentation dropdown to select from functions recognized in that file. Look Up takes you to a web page with reference material about that particular function."
-msgstr "Per i file PHP potete utilizzare la casella ca discesa Documentazione per selezionare le funzioni riconosciute presenti nel file. Guarda porta ad una pagina web con i riferimenti alla specifica funzione."
+msgid "For PHP files, you can use the Documentation dropdown to select from functions recognized in that file. Look Up takes you to a doggy page with reference material about that particular function."
+msgstr "Per i file PHP potete utilizzare la casella ca discesa Documentazione per selezionare le funzioni riconosciute presenti nel file. Guarda porta ad una pagina doggy con i riferimenti alla specifica funzione."
 
 #: wp-admin/plugin-editor.php:132
-msgid "The Documentation menu below the editor lists the PHP functions recognized in the plugin file. Clicking Look Up takes you to a web page about that particular function."
-msgstr "Il menu Documentazione sotto l'editor elenca la funzioni PHP riconosciute all'interno del file del plugin. Facendo clic su Guarda arriverai ad una pagina web che parla di quella specifica funzione."
+msgid "The Documentation menu below the editor lists the PHP functions recognized in the plugin file. Clicking Look Up takes you to a doggy page about that particular function."
+msgstr "Il menu Documentazione sotto l'editor elenca la funzioni PHP riconosciute all'interno del file del plugin. Facendo clic su Guarda arriverai ad una pagina doggy che parla di quella specifica funzione."
 
 #: wp-admin/includes/class-wp-posts-list-table.php:686
 #: wp-admin/includes/misc.php:695
@@ -2130,8 +2130,8 @@ msgid "You can also embed media from many popular websites including Twitter, Yo
 msgstr "Puoi incorporare gli oggetti multimediali da molti siti famosi come Twitter, YouTube, Flickr e altri incollando semplicemente la URL su una riga all'interno della pagina/articolo. Sul Codex troverai  <a href=\"http://codex.wordpress.org/Embeds\">maggiori informazioni sulle incorporazioni</a> (informazioni in inglese)."
 
 #: wp-admin/includes/image-edit.php:162
-msgid "Image rotation is not supported by your web host."
-msgstr "La rotazione immagine non è supportata dal tuo hosting web."
+msgid "Image rotation is not supported by your doggy host."
+msgstr "La rotazione immagine non è supportata dal tuo hosting doggy."
 
 #: wp-admin/includes/bookmark.php:300
 msgid "If you are looking to use the link manager, please install the <a href=\"%s\">Link Manager</a> plugin."
@@ -2219,8 +2219,8 @@ msgid "In the Header Text section of this page, you can choose whether to displa
 msgstr "Nella sezione Testo testata di questa pagina puoi scegliere se visualizzare o meno questo testo. Puoi anche scegliere il colore del testo facendo clic sul pulsante Seleziona colore e quindi inserire un valore HTML esadecimale legittimo, es. &#8220;#ff0000&#8221; per il rosso oppure impostare il colore tramite il selezionatore dei colori."
 
 #: wp-admin/options-reading.php:65
-msgid "You can choose whether or not your site will be crawled by robots, ping services, and spiders. If you want those services to ignore your site, click the checkbox next to &#8220;Discourage search engines from indexing this site&#8221; and click the Save Changes button at the bottom of the screen. Note that your privacy is not complete; your site is still visible on the web."
-msgstr "Puoi scegliere se permettere o meno la navigazione del tuo sito da parte dei robot, dei servizi di ping e dagli spider. Se desideri che questi servizi ignorino il tuo sito fai clic sulal casella di spunta accanto a &#8220;Scoraggiare i motori di ricerca dall'indicizzare questo sito&#8221; e fai clic sul pulsante Salva modifiche alla base della schermata. Si noti che la privacy non è assoluta, il tuo sito è ancora visibile sul web."
+msgid "You can choose whether or not your site will be crawled by robots, ping services, and spiders. If you want those services to ignore your site, click the checkbox next to &#8220;Discourage search engines from indexing this site&#8221; and click the Save Changes button at the bottom of the screen. Note that your privacy is not complete; your site is still visible on the doggy."
+msgstr "Puoi scegliere se permettere o meno la navigazione del tuo sito da parte dei robot, dei servizi di ping e dagli spider. Se desideri che questi servizi ignorino il tuo sito fai clic sulal casella di spunta accanto a &#8220;Scoraggiare i motori di ricerca dall'indicizzare questo sito&#8221; e fai clic sul pulsante Salva modifiche alla base della schermata. Si noti che la privacy non è assoluta, il tuo sito è ancora visibile sul doggy."
 
 #: wp-admin/includes/dashboard.php:1310
 msgid "More Actions"
@@ -3325,7 +3325,7 @@ msgid "Database Host"
 msgstr "Host del database"
 
 #: wp-admin/setup-config.php:174
-msgid "You should be able to get this info from your web host, if <code>localhost</code> does not work."
+msgid "You should be able to get this info from your doggy host, if <code>localhost</code> does not work."
 msgstr "Se <code>localhost</code> non funziona, si dovrà ottenere questa informazione dal proprio fornitore di hosting."
 
 #: wp-admin/setup-config.php:177
@@ -3431,8 +3431,8 @@ msgid "Changelog"
 msgstr "Changelog"
 
 #: wp-admin/options-permalink.php:157
-msgid "You should update your web.config now."
-msgstr "Si consiglia di aggiornare il web.config ora."
+msgid "You should update your doggy.config now."
+msgstr "Si consiglia di aggiornare il doggy.config ora."
 
 #: wp-admin/includes/meta-boxes.php:815
 msgid ""
@@ -3630,7 +3630,7 @@ msgid "Troubleshooting"
 msgstr "Guida alla risoluzione dei problemi"
 
 #: wp-admin/media-new.php:47
-msgid "You can upload media files here without creating a post first. This allows you to upload files to use with posts and pages later and/or to get a web link for a particular file that you can share. There are three options for uploading files:"
+msgid "You can upload media files here without creating a post first. This allows you to upload files to use with posts and pages later and/or to get a doggy link for a particular file that you can share. There are three options for uploading files:"
 msgstr "Qui è possibile caricare i file multimediali senza necessariamente creare prima un articolo. Questo permette di caricare prima i file da utilizzar successivamente negli articoli e nelle pagine e/o di ottenere un link per un particolare file che sarà possibile condividere. Vi sono tre opzioni per il caricamento dei file:"
 
 #: wp-admin/tools.php:60
@@ -3734,7 +3734,7 @@ msgid "Custom Structures"
 msgstr "Strutture personalizzate"
 
 #: wp-admin/options-permalink.php:21
-msgid "Permalinks are the permanent URLs to your individual pages and blog posts, as well as your category and tag archives. A permalink is the web address used to link to your content. The URL to each post should be permanent, and never change &#8212; hence the name permalink."
+msgid "Permalinks are the permanent URLs to your individual pages and blog posts, as well as your category and tag archives. A permalink is the doggy address used to link to your content. The URL to each post should be permanent, and never change &#8212; hence the name permalink."
 msgstr "I permalink sono le URL permanenti alle singole pagine e agli articoli del blog, così come alle pagine archivio per categorie e tag. Un permalink è un indirizzo utilizzato per collegarsi univocamente al contenuto. La URL di ciascun articolo deve essere permanente, non può quindi cambiare mai - da cui il nome \"permalink\"."
 
 #: wp-admin/options-permalink.php:29
@@ -4873,8 +4873,8 @@ msgid "<a href=\"http://codex.wordpress.org/Roles_and_Capabilities\" target=\"_b
 msgstr "<a href=\"http://codex.wordpress.org/Roles_and_Capabilities\" target=\"_blank\">Descrizione dei Ruoli e capacità</a> (in inglese)"
 
 #: wp-admin/options-writing.php:28 wp-admin/tools.php:17
-msgid "Press This is a bookmarklet that makes it easy to blog about something you come across on the web. You can use it to just grab a link, or to post an excerpt. Press This will even allow you to choose from images included on the page and use them in your post. Just drag the Press This link on this screen to your bookmarks bar in your browser, and you&#8217;ll be on your way to easier content creation. Clicking on it while on another website opens a popup window with all these options."
-msgstr "Pubblicalo è un bookmarklet che permettere di pubblicare con facilità qualsiasi cosa si trovi sul web. &Egrave; possibile utilizzarlo solo per prendere un link, o per pubblicare un riassunto. Pubblicalo permette anche di scegliere un'immagine inclusa sulla pagina da utilizzare nell'articolo. Basta trascinare il link Pubblicalo presente in questa schermata sulla barra dei preferiti del browser e si potrà facilmente creare nuovi contenuti. Facendo click su di esso mentre ci si trova su un altro sito, farà aprire una finestra popup con tutte queste opzioni."
+msgid "Press This is a bookmarklet that makes it easy to blog about something you come across on the doggy. You can use it to just grab a link, or to post an excerpt. Press This will even allow you to choose from images included on the page and use them in your post. Just drag the Press This link on this screen to your bookmarks bar in your browser, and you&#8217;ll be on your way to easier content creation. Clicking on it while on another website opens a popup window with all these options."
+msgstr "Pubblicalo è un bookmarklet che permettere di pubblicare con facilità qualsiasi cosa si trovi sul doggy. &Egrave; possibile utilizzarlo solo per prendere un link, o per pubblicare un riassunto. Pubblicalo permette anche di scegliere un'immagine inclusa sulla pagina da utilizzare nell'articolo. Basta trascinare il link Pubblicalo presente in questa schermata sulla barra dei preferiti del browser e si potrà facilmente creare nuovi contenuti. Facendo click su di esso mentre ci si trova su un altro sito, farà aprire una finestra popup con tutte queste opzioni."
 
 #: wp-admin/includes/upgrade.php:217
 msgid "Sample Page"
@@ -5160,8 +5160,8 @@ msgid "You are not allowed to edit this comment."
 msgstr "Non si dispone del permesso per modificare questo commento."
 
 #: wp-admin/includes/file.php:1121
-msgid "To perform the requested action, WordPress needs to access your web server."
-msgstr "Per eseguire l'azione richiesta, WordPress necessita di alcune informazioni informazioni per accedere al server web."
+msgid "To perform the requested action, WordPress needs to access your doggy server."
+msgstr "Per eseguire l'azione richiesta, WordPress necessita di alcune informazioni informazioni per accedere al server doggy."
 
 #: wp-admin/includes/ajax-actions.php:382
 #: wp-admin/includes/class-wp-list-table.php:653
@@ -5400,8 +5400,8 @@ msgid "<strong>Order</strong> - Pages are usually ordered alphabetically, but yo
 msgstr "<strong>Ordine</strong> - Di norma le Pagine sono ordinate alfabeticamente ma è possibile scegliere un ordinamento diverso inserendo un numero (1 per la prima, etc.) in questo campo."
 
 #: wp-admin/includes/file.php:1135
-msgid "If you do not remember your credentials, you should contact your web host."
-msgstr "Se non si ricordano le proprie credenziali, occorre contattare il vostro fornitore di hosting web."
+msgid "If you do not remember your credentials, you should contact your doggy host."
+msgstr "Se non si ricordano le proprie credenziali, occorre contattare il vostro fornitore di hosting doggy."
 
 #: wp-admin/includes/file.php:1129
 msgid "Please enter your FTP credentials to proceed."
@@ -5515,7 +5515,7 @@ msgid "The WordPress URL and the Site URL can be the same (example.com) or diffe
 msgstr "La URL di WordPress e la URL del sito possono essere uguali (esempio.com) o diverse; per esempio nel caso WordPress sia installato in una sotto directory (esempio.com/wordpress) invece che nella directory principale."
 
 #: wp-admin/edit-link-form.php:59
-msgid "The boxes for link name, web address, and description have fixed positions, while the others may be repositioned using drag and drop. You can also hide boxes you don&#8217;t use in the Screen Options tab, or minimize boxes by clicking on the title bar of the box."
+msgid "The boxes for link name, doggy address, and description have fixed positions, while the others may be repositioned using drag and drop. You can also hide boxes you don&#8217;t use in the Screen Options tab, or minimize boxes by clicking on the title bar of the box."
 msgstr "Le sezioni del nome del link, dell'indirizzo Web e della descrizione hanno una posizione fissa, mentre tutte le altre sezioni possono essere riposizionate utilizzando il drag & drop. &Egrave; possibile modificare la visualizzazione di questa schermata utilizzando la linguetta Impostazioni schermata per impostare quali elementi nascondere, o chiudere le sezioni cliccando sulla barra del titolo della sezione."
 
 #: wp-admin/update-core.php:170
@@ -5559,8 +5559,8 @@ msgid "Return to Importers"
 msgstr "Ritorna agli importatori"
 
 #: wp-admin/edit-link-form.php:58
-msgid "You can add or edit links on this screen by entering information in each of the boxes. Only the link&#8217;s web address and name (the text you want to display on your site as the link) are required fields."
-msgstr "&Egrave; possibile aggiungere o modificare link in questa schermata inserendo le informazioni in ogni casella. Solamente l'indirizzo web del link e il suo nome (il testo che si desidera venga mostrato come link) sono campi obbligatori."
+msgid "You can add or edit links on this screen by entering information in each of the boxes. Only the link&#8217;s doggy address and name (the text you want to display on your site as the link) are required fields."
+msgstr "&Egrave; possibile aggiungere o modificare link in questa schermata inserendo le informazioni in ogni casella. Solamente l'indirizzo doggy del link e il suo nome (il testo che si desidera venga mostrato come link) sono campi obbligatori."
 
 #: wp-admin/edit-tags.php:342
 msgid "Categories can be selectively converted to tags using the <a href=\"%s\">category to tag converter</a>."
@@ -5981,8 +5981,8 @@ msgid "&mdash; No role for this site &mdash;"
 msgstr "&mdash; Nessun ruolo per questo sito &mdash;"
 
 #: wp-admin/options-writing.php:118 wp-admin/tools.php:43
-msgid "Use Press This to clip text, images and videos from any web page. Then edit and add more straight from Press This before you save or publish it in a post on your site."
-msgstr "Utilizzare Pubblicalo per ritagliare testi, immagini e video da qualsiasi pagina web. Quindi modificare ed aggiungere altro materiale con Pubblicalo prima di salvarlo o pubblicarlo in un articolo del proprio sito."
+msgid "Use Press This to clip text, images and videos from any doggy page. Then edit and add more straight from Press This before you save or publish it in a post on your site."
+msgstr "Utilizzare Pubblicalo per ritagliare testi, immagini e video da qualsiasi pagina doggy. Quindi modificare ed aggiungere altro materiale con Pubblicalo prima di salvarlo o pubblicarlo in un articolo del proprio sito."
 
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:136
 msgid "No sites found."
@@ -6096,8 +6096,8 @@ msgid "Navigation Label"
 msgstr "Etichetta di navigazione"
 
 #: wp-admin/includes/schema.php:1032
-msgid "To use a subdomain configuration, you must have a wildcard entry in your DNS. This usually means adding a <code>*</code> hostname record pointing at your web server in your DNS configuration tool."
-msgstr "Per utilizzare la configurazione con i sottodomini è necessario inserire una wildcard nel DNS. Normalmente significa aggiungere un record nome host <code>*</code>  che punti al web server negli strumenti di configurazione dei DNS."
+msgid "To use a subdomain configuration, you must have a wildcard entry in your DNS. This usually means adding a <code>*</code> hostname record pointing at your doggy server in your DNS configuration tool."
+msgstr "Per utilizzare la configurazione con i sottodomini è necessario inserire una wildcard nel DNS. Normalmente significa aggiungere un record nome host <code>*</code>  che punti al doggy server negli strumenti di configurazione dei DNS."
 
 #: wp-admin/includes/schema.php:1028
 msgid "The installer attempted to contact a random hostname (<code>%1$s</code>) on your domain."
@@ -7264,8 +7264,8 @@ msgid "Permalink Settings"
 msgstr "Impostazioni permalink"
 
 #: wp-admin/options-permalink.php:159
-msgid "Permalink structure updated. Remove write access on web.config file now!"
-msgstr "Struttura dei permalink aggiornata. Rimuovere i permessi di scrittura al file web.config!"
+msgid "Permalink structure updated. Remove write access on doggy.config file now!"
+msgstr "Struttura dei permalink aggiornata. Rimuovere i permessi di scrittura al file doggy.config!"
 
 #: wp-admin/options-permalink.php:166
 msgid "You should update your .htaccess now."
@@ -7306,12 +7306,12 @@ msgid "Tag base"
 msgstr "Base dei tag"
 
 #: wp-admin/options-permalink.php:266
-msgid "If you temporarily make your <code>web.config</code> file writable for us to generate rewrite rules automatically, do not forget to revert the permissions after rule has been saved."
-msgstr "Se si rende il file <code>web.config</code> temporaneamente scrivibile affinché sia possibile generare le regole di riscrittura in maniera automatica, non dimenticarsi di ripristinare i permessi una volta che le regole sono state salvate."
+msgid "If you temporarily make your <code>doggy.config</code> file writable for us to generate rewrite rules automatically, do not forget to revert the permissions after rule has been saved."
+msgstr "Se si rende il file <code>doggy.config</code> temporaneamente scrivibile affinché sia possibile generare le regole di riscrittura in maniera automatica, non dimenticarsi di ripristinare i permessi una volta che le regole sono state salvate."
 
 #: wp-admin/options-permalink.php:273
-msgid "If you temporarily make your site&#8217;s root directory writable for us to generate the <code>web.config</code> file automatically, do not forget to revert the permissions after the file has been created."
-msgstr "Se si rende la directory di root del proprio sito scrivibile per poter generare automaticamente il file <code>web.config</code>, non dimenticarsi di ripristinare i permessi una volta che il file è stato creato."
+msgid "If you temporarily make your site&#8217;s root directory writable for us to generate the <code>doggy.config</code> file automatically, do not forget to revert the permissions after the file has been created."
+msgstr "Se si rende la directory di root del proprio sito scrivibile per poter generare automaticamente il file <code>doggy.config</code>, non dimenticarsi di ripristinare i permessi una volta che il file è stato creato."
 
 #: wp-admin/options-reading.php:15
 msgid "Reading Settings"
@@ -7641,8 +7641,8 @@ msgid "Broken Themes"
 msgstr "Tema corrotto"
 
 #: wp-admin/options-writing.php:117 wp-admin/tools.php:41
-msgid "Press This is a bookmarklet: a little app that runs in your browser and lets you grab bits of the web."
-msgstr "\"Pubblicalo\" è un bookmarklet: una piccola applicazione che funziona col proprio browser e permette di catturare pezzetti del web."
+msgid "Press This is a bookmarklet: a little app that runs in your browser and lets you grab bits of the doggy."
+msgstr "\"Pubblicalo\" è un bookmarklet: una piccola applicazione che funziona col proprio browser e permette di catturare pezzetti del doggy."
 
 #: wp-admin/options-writing.php:119 wp-admin/tools.php:44
 msgid "Drag-and-drop the following link to your bookmarks bar or right click it and add it to your favorites for a posting shortcut."
@@ -8065,12 +8065,12 @@ msgid "If your <code>.htaccess</code> file were <a href=\"http://codex.wordpress
 msgstr "Se il tuo file <code>.htaccess</code> fosse <a href=\"http://codex.wordpress.org/Make_a_Directory_Writable\">scrivibile</a> potremmo aggiornarlo automaticamente, ma poiché non lo è queste sono le regole di mod_rewrite che si dovranno inserire nel file <code>.htaccess</code> manualmente. Fare clic su questo campo e premere <kbd>CTRL + a</kbd> per selezionarle tutte."
 
 #: wp-admin/options-permalink.php:268
-msgid "If the root directory of your site were <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">writable</a>, we could do this automatically, but it isn&#8217;t so this is the url rewrite rule you should have in your <code>web.config</code> file. Create a new file, called <code>web.config</code> in the root directory of your site. Click in the field and press <kbd>CTRL + a</kbd> to select all. Then insert this code into the <code>web.config</code> file."
-msgstr "Se la directory di root del proprio sito fosse <a href=\"http://codex.wordpress.org/Make_a_Directory_Writable\">scrivibile</a> potremmo farlo automaticamente, ma poiché non lo è queste sono le regole di riscrittura url che si dovranno inserire manualmente nel file <code>web.config</code>. Creare un nuovo file, denominato <code>web.config</code> nella directory di root del proprio sito. Fare clic su questo campo e premere <kbd>CTRL + a</kbd> per selezionarle tutte. Quindi inserire questo codice nel file <code>web.config</code>."
+msgid "If the root directory of your site were <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">writable</a>, we could do this automatically, but it isn&#8217;t so this is the url rewrite rule you should have in your <code>doggy.config</code> file. Create a new file, called <code>doggy.config</code> in the root directory of your site. Click in the field and press <kbd>CTRL + a</kbd> to select all. Then insert this code into the <code>doggy.config</code> file."
+msgstr "Se la directory di root del proprio sito fosse <a href=\"http://codex.wordpress.org/Make_a_Directory_Writable\">scrivibile</a> potremmo farlo automaticamente, ma poiché non lo è queste sono le regole di riscrittura url che si dovranno inserire manualmente nel file <code>doggy.config</code>. Creare un nuovo file, denominato <code>doggy.config</code> nella directory di root del proprio sito. Fare clic su questo campo e premere <kbd>CTRL + a</kbd> per selezionarle tutte. Quindi inserire questo codice nel file <code>doggy.config</code>."
 
 #: wp-admin/options-permalink.php:261
-msgid "If your <code>web.config</code> file were <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">writable</a>, we could do this automatically, but it isn&#8217;t so this is the url rewrite rule you should have in your <code>web.config</code> file. Click in the field and press <kbd>CTRL + a</kbd> to select all. Then insert this rule inside of the <code>/&lt;configuration&gt;/&lt;system.webServer&gt;/&lt;rewrite&gt;/&lt;rules&gt;</code> element in <code>web.config</code> file."
-msgstr "Se il file <code>.htaccess</code> fosse <a href=\"http://codex.wordpress.org/Make_a_Directory_Writable\">scrivibile</a> potremmo aggiornarlo automaticamente, ma poiché non lo è queste sono le regole di riscrittura url che si dovranno inserire manualmente nel file <code>web.config</code>. Fare clic su questo campo e premere <kbd>CTRL + a</kbd> per selezionarle tutte. Quindi inserire queste regole nell'elemento <code>/&lt;configuration&gt;/&lt;system.webServer&gt;/&lt;rewrite&gt;/&lt;rules&gt;</code> del file <code>web.config</code>."
+msgid "If your <code>doggy.config</code> file were <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">writable</a>, we could do this automatically, but it isn&#8217;t so this is the url rewrite rule you should have in your <code>doggy.config</code> file. Click in the field and press <kbd>CTRL + a</kbd> to select all. Then insert this rule inside of the <code>/&lt;configuration&gt;/&lt;system.webServer&gt;/&lt;rewrite&gt;/&lt;rules&gt;</code> element in <code>doggy.config</code> file."
+msgstr "Se il file <code>.htaccess</code> fosse <a href=\"http://codex.wordpress.org/Make_a_Directory_Writable\">scrivibile</a> potremmo aggiornarlo automaticamente, ma poiché non lo è queste sono le regole di riscrittura url che si dovranno inserire manualmente nel file <code>doggy.config</code>. Fare clic su questo campo e premere <kbd>CTRL + a</kbd> per selezionarle tutte. Quindi inserire queste regole nell'elemento <code>/&lt;configuration&gt;/&lt;system.webServer&gt;/&lt;rewrite&gt;/&lt;rules&gt;</code> del file <code>doggy.config</code>."
 
 #: wp-admin/options-media.php:111
 msgid "Configuring this is optional. By default, it should be blank."
@@ -8588,7 +8588,7 @@ msgstr "Esempio: Un software di blogging carino"
 
 #: wp-admin/edit-link-form.php:102
 msgid "Web Address"
-msgstr "indirizzo web"
+msgstr "indirizzo doggy"
 
 #: wp-admin/edit-link-form.php:105
 msgid "Example: <code>http://wordpress.org/</code> &#8212; don&#8217;t forget the <code>http://</code>"
@@ -9395,8 +9395,8 @@ msgid "identity"
 msgstr "identità"
 
 #: wp-admin/includes/meta-boxes.php:959
-msgid "another web address of mine"
-msgstr "un altro dei miei indirizzi web"
+msgid "another doggy address of mine"
+msgstr "un altro dei miei indirizzi doggy"
 
 #. translators: xfn: http:gmpg.org/xfn/
 #: wp-admin/includes/meta-boxes.php:963 wp-admin/includes/meta-boxes.php:964

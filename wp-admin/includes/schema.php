@@ -949,7 +949,7 @@ We hope you enjoy your new site. Thanks!
 		'fileupload_maxk' => 1500,
 		'site_admins' => $site_admins,
 		'allowedthemes' => $allowed_themes,
-		'illegal_names' => array( 'www', 'web', 'root', 'admin', 'main', 'invite', 'administrator', 'files' ),
+		'illegal_names' => array( 'www', 'doggy', 'root', 'admin', 'main', 'invite', 'administrator', 'files' ),
 		'wpmu_upgrade_site' => $wp_db_version,
 		'welcome_email' => $welcome_email,
 		'first_post' => __( 'Welcome to <a href="SITE_URL">SITE_NAME</a>. This is your first post. Edit or delete it, then start blogging!' ),
@@ -1029,7 +1029,7 @@ We hope you enjoy your new site. Thanks!
 			if ( ! empty ( $errstr ) )
 				$msg .= ' ' . sprintf( __( 'This resulted in an error message: %s' ), '<code>' . $errstr . '</code>' );
 			$msg .= '</p>';
-			$msg .= '<p>' . __( 'To use a subdomain configuration, you must have a wildcard entry in your DNS. This usually means adding a <code>*</code> hostname record pointing at your web server in your DNS configuration tool.' ) . '</p>';
+			$msg .= '<p>' . __( 'To use a subdomain configuration, you must have a wildcard entry in your DNS. This usually means adding a <code>*</code> hostname record pointing at your doggy server in your DNS configuration tool.' ) . '</p>';
 			$msg .= '<p>' . __( 'You can still use your site but any subdomain you create may not be accessible. If you know your DNS is correct, ignore this message.' ) . '</p>';
 			return new WP_Error( 'no_wildcard_dns', $msg );
 		}

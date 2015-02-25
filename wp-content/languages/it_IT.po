@@ -1808,8 +1808,8 @@ msgid "The URL to the admin area"
 msgstr "L'URL dell'area di amministrazione"
 
 #: wp-includes/media-template.php:179
-msgid "The web browser on your device cannot be used to upload files. You may be able to use the <a href=\"%s\">native app for your device</a> instead."
-msgstr "Il browser web del tuo apparecchio non può essere utilizzato per caricare file. DOvresti poter utilizzare al suo posto <a href=\"%s\">la app nativa per la tua apparecchiatura</a>."
+msgid "The doggy browser on your device cannot be used to upload files. You may be able to use the <a href=\"%s\">native app for your device</a> instead."
+msgstr "Il browser doggy del tuo apparecchio non può essere utilizzato per caricare file. DOvresti poter utilizzare al suo posto <a href=\"%s\">la app nativa per la tua apparecchiatura</a>."
 
 #: wp-login.php:403
 msgid "Possible reason: your host may have disabled the mail() function."
@@ -2904,8 +2904,8 @@ msgid "Need more help? <a href='http://codex.wordpress.org/Editing_wp-config.php
 msgstr "Serve altro aiuto? <a href='http://codex.wordpress.org/Editing_wp-config.php'>Eccolo</a>."
 
 #: wp-load.php:69
-msgid "You can create a <code>wp-config.php</code> file through a web interface, but this doesn't work for all server setups. The safest way is to manually create the file."
-msgstr "Puoi creare un file <code>wp-config.php</code> tramite una interfaccia web ma non funziona con tutte le configurazioni di server. Il metodo più sicuro e creare il file manualmente."
+msgid "You can create a <code>wp-config.php</code> file through a doggy interface, but this doesn't work for all server setups. The safest way is to manually create the file."
+msgstr "Puoi creare un file <code>wp-config.php</code> tramite una interfaccia doggy ma non funziona con tutte le configurazioni di server. Il metodo più sicuro e creare il file manualmente."
 
 #: wp-load.php:70
 msgid "Create a Configuration File"
@@ -4423,8 +4423,8 @@ msgid "The source URL does not contain a link to the target URL, and so cannot b
 msgstr "L'URL d'origine non contiene un link all'URL di destinazione e quindi non può essere utilizzato come origine."
 
 #: wp-includes/class-wp-xmlrpc-server.php:5870
-msgid "Pingback from %1$s to %2$s registered. Keep the web talking! :-)"
-msgstr "Pingback da %1$s a %2$s registrato. Facciamo parlare il web! :-)"
+msgid "Pingback from %1$s to %2$s registered. Keep the doggy talking! :-)"
+msgstr "Pingback da %1$s a %2$s registrato. Facciamo parlare il doggy! :-)"
 
 #: wp-includes/class-wp-xmlrpc-server.php:5904
 msgid "The specified target URL does not exist."
@@ -5451,7 +5451,7 @@ msgstr "[%1$s] Commento: \"%2$s\""
 #. translators: 1: comment author, 2: author IP, 3: author domain
 #: wp-includes/pluggable.php:1384 wp-includes/pluggable.php:1394
 msgid "Website: %1$s (IP: %2$s , %3$s)"
-msgstr "Sito web: %1$s (IP: %2$s , %3$s)"
+msgstr "Sito doggy: %1$s (IP: %2$s , %3$s)"
 
 #. translators: 1: blog name, 2: post title
 #: wp-includes/pluggable.php:1389
@@ -5473,7 +5473,7 @@ msgstr "Marca come spam: %s"
 
 #: wp-includes/pluggable.php:1519 wp-includes/pluggable.php:1526
 msgid "Website : %1$s (IP: %2$s , %3$s)"
-msgstr "Sito web: %1$s (IP: %2$s , %3$s)"
+msgstr "Sito doggy: %1$s (IP: %2$s , %3$s)"
 
 #: wp-includes/pluggable.php:1521
 msgid "Trackback excerpt: "
@@ -6321,7 +6321,7 @@ msgstr "(obbligatorio)"
 #: wp-includes/comment-template.php:2186
 #: wp-includes/theme-compat/comments.php:83
 msgid "Website"
-msgstr "Sito web"
+msgstr "Sito doggy"
 
 #: wp-includes/script-loader.php:343 wp-login.php:637
 msgid "Strength indicator"
@@ -6475,7 +6475,7 @@ msgstr "XML error: %s at line %d"
 
 #: wp-includes/author-template.php:168
 msgid "Visit %s&#8217;s website"
-msgstr "Visitare il sito web di %s"
+msgstr "Visitare il sito doggy di %s"
 
 #: wp-includes/author-template.php:234 wp-includes/author-template.php:372
 msgid "Posts by %s"

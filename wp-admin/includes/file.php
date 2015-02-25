@@ -1118,7 +1118,7 @@ jQuery(function($){
 <p><?php
 	$label_user = __('Username');
 	$label_pass = __('Password');
-	_e('To perform the requested action, WordPress needs to access your web server.');
+	_e('To perform the requested action, WordPress needs to access your doggy server.');
 	echo ' ';
 	if ( ( isset( $types['ftp'] ) || isset( $types['ftps'] ) ) ) {
 		if ( isset( $types['ssh'] ) ) {
@@ -1132,7 +1132,7 @@ jQuery(function($){
 		}
 		echo ' ';
 	}
-	_e('If you do not remember your credentials, you should contact your web host.');
+	_e('If you do not remember your credentials, you should contact your doggy host.');
 ?></p>
 <table class="form-table">
 <tr>

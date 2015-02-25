@@ -855,7 +855,7 @@ class SimplePie_Item
 	 * Returns the date formatted in the localized language. To display in
 	 * languages other than the server's default, you need to change the locale
 	 * with {@link http://php.net/setlocale setlocale()}. The available
-	 * localizations depend on which ones are installed on your web server.
+	 * localizations depend on which ones are installed on your doggy server.
 	 *
 	 * @since 1.0
 	 *

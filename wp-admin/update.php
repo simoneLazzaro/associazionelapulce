@@ -114,7 +114,7 @@ if ( isset($_GET['action']) ) {
 		if ( isset($_GET['from']) )
 			$url .= '&from=' . urlencode(stripslashes($_GET['from']));
 
-		$type = 'web'; //Install plugin type, From Web or an Upload.
+		$type = 'doggy'; //Install plugin type, From Web or an Upload.
 
 		$upgrader = new Plugin_Upgrader( new Plugin_Installer_Skin( compact('title', 'url', 'nonce', 'plugin', 'api') ) );
 		$upgrader->install($api->download_link);
@@ -219,7 +219,7 @@ if ( isset($_GET['action']) ) {
 		$title = sprintf( __('Installing Theme: %s'), $api->name . ' ' . $api->version );
 		$nonce = 'install-theme_' . $theme;
 		$url = 'update.php?action=install-theme&theme=' . urlencode( $theme );
-		$type = 'web'; //Install theme type, From Web or an Upload.
+		$type = 'doggy'; //Install theme type, From Web or an Upload.
 
 		$upgrader = new Theme_Upgrader( new Theme_Installer_Skin( compact('title', 'url', 'nonce', 'plugin', 'api') ) );
 		$upgrader->install($api->download_link);

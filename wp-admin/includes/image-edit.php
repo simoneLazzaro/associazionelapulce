@@ -159,7 +159,7 @@ function wp_image_editor($post_id, $msg = false) {
 			<div class="imgedit-rleft"  onclick="imageEdit.rotate( 90, <?php echo "$post_id, '$nonce'"; ?>, this)" title="<?php esc_attr_e( 'Rotate counter-clockwise' ); ?>"></div>
 			<div class="imgedit-rright" onclick="imageEdit.rotate(-90, <?php echo "$post_id, '$nonce'"; ?>, this)" title="<?php esc_attr_e( 'Rotate clockwise' ); ?>"></div>
 	<?php } else {
-			$note_no_rotate = esc_attr__('Image rotation is not supported by your web host.');
+			$note_no_rotate = esc_attr__('Image rotation is not supported by your doggy host.');
 	?>
 		    <div class="imgedit-rleft disabled"  title="<?php echo $note_no_rotate; ?>"></div>
 		    <div class="imgedit-rright disabled" title="<?php echo $note_no_rotate; ?>"></div>

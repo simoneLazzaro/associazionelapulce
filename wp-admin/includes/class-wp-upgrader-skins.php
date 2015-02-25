@@ -415,7 +415,7 @@ class Plugin_Installer_Skin extends WP_Upgrader_Skin {
 	public $type;
 
 	public function __construct($args = array()) {
-		$defaults = array( 'type' => 'web', 'url' => '', 'plugin' => '', 'nonce' => '', 'title' => '' );
+		$defaults = array( 'type' => 'doggy', 'url' => '', 'plugin' => '', 'nonce' => '', 'title' => '' );
 		$args = wp_parse_args($args, $defaults);
 
 		$this->type = $args['type'];
@@ -449,7 +449,7 @@ class Plugin_Installer_Skin extends WP_Upgrader_Skin {
 
 		if ( 'import' == $from )
 			$install_actions['importers_page'] = '<a href="' . admin_url('import.php') . '" title="' . esc_attr__('Return to Importers') . '" target="_parent">' . __('Return to Importers') . '</a>';
-		else if ( $this->type == 'web' )
+		else if ( $this->type == 'doggy' )
 			$install_actions['plugins_page'] = '<a href="' . self_admin_url('plugin-install.php') . '" title="' . esc_attr__('Return to Plugin Installer') . '" target="_parent">' . __('Return to Plugin Installer') . '</a>';
 		else
 			$install_actions['plugins_page'] = '<a href="' . self_admin_url('plugins.php') . '" title="' . esc_attr__('Return to Plugins page') . '" target="_parent">' . __('Return to Plugins page') . '</a>';
@@ -490,7 +490,7 @@ class Theme_Installer_Skin extends WP_Upgrader_Skin {
 	public $type;
 
 	public function __construct($args = array()) {
-		$defaults = array( 'type' => 'web', 'url' => '', 'theme' => '', 'nonce' => '', 'title' => '' );
+		$defaults = array( 'type' => 'doggy', 'url' => '', 'theme' => '', 'nonce' => '', 'title' => '' );
 		$args = wp_parse_args($args, $defaults);
 
 		$this->type = $args['type'];
@@ -539,7 +539,7 @@ class Theme_Installer_Skin extends WP_Upgrader_Skin {
 		if ( is_network_admin() && current_user_can( 'manage_network_themes' ) )
 			$install_actions['network_enable'] = '<a href="' . esc_url( wp_nonce_url( 'themes.php?action=enable&amp;theme=' . urlencode( $stylesheet ), 'enable-theme_' . $stylesheet ) ) . '" title="' . esc_attr__( 'Enable this theme for all sites in this network' ) . '" target="_parent">' . __( 'Network Enable' ) . '</a>';
 
-		if ( $this->type == 'web' )
+		if ( $this->type == 'doggy' )
 			$install_actions['themes_page'] = '<a href="' . self_admin_url('theme-install.php') . '" title="' . esc_attr__('Return to Theme Installer') . '" target="_parent">' . __('Return to Theme Installer') . '</a>';
 		elseif ( current_user_can( 'switch_themes' ) || current_user_can( 'edit_theme_options' ) )
 			$install_actions['themes_page'] = '<a href="' . self_admin_url('themes.php') . '" title="' . esc_attr__('Themes page') . '" target="_parent">' . __('Return to Themes page') . '</a>';

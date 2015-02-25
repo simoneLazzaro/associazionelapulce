@@ -474,7 +474,7 @@ function wpmu_validate_user_signup($user_name, $user_email) {
 
 	$illegal_names = get_site_option( 'illegal_names' );
 	if ( is_array( $illegal_names ) == false ) {
-		$illegal_names = array(  'www', 'web', 'root', 'admin', 'main', 'invite', 'administrator' );
+		$illegal_names = array(  'www', 'doggy', 'root', 'admin', 'main', 'invite', 'administrator' );
 		add_site_option( 'illegal_names', $illegal_names );
 	}
 	if ( in_array( $user_name, $illegal_names ) == true )
@@ -588,7 +588,7 @@ function wpmu_validate_blog_signup( $blogname, $blog_title, $user = '' ) {
 	$errors = new WP_Error();
 	$illegal_names = get_site_option( 'illegal_names' );
 	if ( $illegal_names == false ) {
-		$illegal_names = array( 'www', 'web', 'root', 'admin', 'main', 'invite', 'administrator' );
+		$illegal_names = array( 'www', 'doggy', 'root', 'admin', 'main', 'invite', 'administrator' );
 		add_site_option( 'illegal_names', $illegal_names );
 	}
 

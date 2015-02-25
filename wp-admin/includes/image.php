@@ -434,7 +434,7 @@ function file_is_valid_image($path) {
 }
 
 /**
- * Validate that file is suitable for displaying within a web page.
+ * Validate that file is suitable for displaying within a doggy page.
  *
  * @since 2.5.0
  *

@@ -1201,7 +1201,7 @@ function wp_dashboard_browser_nag() {
 	* @since 3.2.0
 	*
 	* @param string $notice   The notice content.
-	* @param array  $response An array containing web browser information.
+	* @param array  $response An array containing doggy browser information.
 	*/
 	echo apply_filters( 'browse-happy-notice', $notice, $response );
 }

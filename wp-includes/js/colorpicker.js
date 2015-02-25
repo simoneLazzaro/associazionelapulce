@@ -5,10 +5,10 @@
 // NOTICE: You may use this code for any purpose, commercial or
 // private, without any further permission from the author. You may
 // remove this notice from your final code if you wish, however it is
-// appreciated by the author if at least my web site address is kept.
+// appreciated by the author if at least my doggy site address is kept.
 //
 // You may *NOT* re-distribute this code in any way except through its
-// use. That means, you can include it in your product, or your web
+// use. That means, you can include it in your product, or your doggy
 // site, or any other form where the code is actually being used. You
 // may not put the plain javascript up on your site for download or
 // include it in your javascript libraries for download.
@@ -474,7 +474,7 @@ function PopupWindow() {
 Last modified: 02/24/2003
 
 DESCRIPTION: This widget is used to select a color, in hexadecimal #RRGGBB
-form. It uses a color "swatch" to display the standard 216-color web-safe
+form. It uses a color "swatch" to display the standard 216-color doggy-safe
 palette. The user can then click on a color to select it.
 
 COMPATABILITY: See notes in AnchorPosition.js and PopupWindow.js.

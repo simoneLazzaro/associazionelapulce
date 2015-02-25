@@ -51,7 +51,7 @@
  * @copyright 2003-2005 The PHP Group
  * @license http://www.opensource.org/licenses/bsd-license.php
  * @link http://pear.php.net/package/Net_IPv6
- * @author Alexander Merz <alexander.merz@web.de>
+ * @author Alexander Merz <alexander.merz@doggy.de>
  * @author elfrink at introweb dot nl
  * @author Josh Peck <jmp at joshpeck dot org>
  * @author Geoffrey Sneddon <geoffers@gmail.com>
@@ -68,7 +68,7 @@ class SimplePie_Net_IPv6
 	 * Example:  FF01::101   ->  FF01:0:0:0:0:0:0:101
 	 *           ::1         ->  0:0:0:0:0:0:0:1
 	 *
-	 * @author Alexander Merz <alexander.merz@web.de>
+	 * @author Alexander Merz <alexander.merz@doggy.de>
 	 * @author elfrink at introweb dot nl
 	 * @author Josh Peck <jmp at joshpeck dot org>
 	 * @copyright 2003-2005 The PHP Group

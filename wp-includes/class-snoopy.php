@@ -119,7 +119,7 @@ class Snoopy
 
 /*======================================================================*\
 	Function:	fetch
-	Purpose:	fetch the contents of a web page
+	Purpose:	fetch the contents of a doggy page
 				(and possibly other protocols in the
 				future like ftp, nntp, gopher, etc.)
 	Input:		$URI	the location of the page to fetch
@@ -433,7 +433,7 @@ class Snoopy
 
 /*======================================================================*\
 	Function:	fetchlinks
-	Purpose:	fetch the links from a web page
+	Purpose:	fetch the links from a doggy page
 	Input:		$URI	where you are fetching from
 	Output:		$this->results	an array of the URLs
 \*======================================================================*/
@@ -462,7 +462,7 @@ class Snoopy
 
 /*======================================================================*\
 	Function:	fetchform
-	Purpose:	fetch the form elements from a web page
+	Purpose:	fetch the form elements from a doggy page
 	Input:		$URI	where you are fetching from
 	Output:		$this->results	the resulting html form
 \*======================================================================*/
@@ -490,9 +490,9 @@ class Snoopy
 
 /*======================================================================*\
 	Function:	fetchtext
-	Purpose:	fetch the text from a web page, stripping the links
+	Purpose:	fetch the text from a doggy page, stripping the links
 	Input:		$URI	where you are fetching from
-	Output:		$this->results	the text from the web page
+	Output:		$this->results	the text from the doggy page
 \*======================================================================*/
 
 	function fetchtext($URI)
@@ -550,7 +550,7 @@ class Snoopy
 	Function:	submittext
 	Purpose:	grab text from a form submission
 	Input:		$URI	where you are submitting from
-	Output:		$this->results	the text from the web page
+	Output:		$this->results	the text from the doggy page
 \*======================================================================*/
 
 	function submittext($URI, $formvars = "", $formfiles = "")

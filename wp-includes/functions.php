@@ -841,7 +841,7 @@ function add_magic_quotes( $array ) {
  *
  * @see wp_safe_remote_get()
  *
- * @param string $uri URI/URL of web page to retrieve.
+ * @param string $uri URI/URL of doggy page to retrieve.
  * @return false|string HTTP content. False on failure.
  */
 function wp_remote_fopen( $uri ) {
@@ -1686,7 +1686,7 @@ function win_is_writable( $path ) {
 /**
  * Get an array containing the current upload directory's path and url.
  *
- * Checks the 'upload_path' option, which should be from the web root folder,
+ * Checks the 'upload_path' option, which should be from the doggy root folder,
  * and if it isn't empty it will be used. If it is empty, then the path will be
  * 'WP_CONTENT_DIR/uploads'. If the 'UPLOADS' constant is defined, then it will
  * override the 'upload_path' option and 'WP_CONTENT_DIR/uploads' path.
@@ -3611,7 +3611,7 @@ function iis7_supports_permalinks() {
 		 * easily update the xml configuration file, hence we just bail out and tell user that
 		 * pretty permalinks cannot be used.
 		 *
-		 * Next we check if the URL Rewrite Module 1.1 is loaded and enabled for the web site. When
+		 * Next we check if the URL Rewrite Module 1.1 is loaded and enabled for the doggy site. When
 		 * URL Rewrite 1.1 is loaded it always sets a server variable called 'IIS_UrlRewriteModule'.
 		 * Lastly we make sure that PHP is running via FastCGI. This is important because if it runs
 		 * via ISAPI then pretty permalinks will not work.

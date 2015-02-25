@@ -19,7 +19,7 @@
  *     Plugin URI: Link to plugin information
  *     Description: Plugin Description
  *     Author: Plugin author's name
- *     Author URI: Link to the author's web site
+ *     Author URI: Link to the author's doggy site
  *     Version: Must be set in the plugin for WordPress 2.3+
  *     Text Domain: Optional. Unique identifier, should be same as the one used in
  *    		plugin_text_domain()
@@ -36,13 +36,13 @@
  * Plugin data returned array contains the following:
  *
  * - 'Name' - Name of the plugin, must be unique.
- * - 'Title' - Title of the plugin and the link to the plugin's web site.
+ * - 'Title' - Title of the plugin and the link to the plugin's doggy site.
  * - 'Description' - Description of what the plugin does and/or notes
  * - from the author.
  * - 'Author' - The author's name
- * - 'AuthorURI' - The authors web site address.
+ * - 'AuthorURI' - The authors doggy site address.
  * - 'Version' - The plugin version number.
- * - 'PluginURI' - Plugin web site address.
+ * - 'PluginURI' - Plugin doggy site address.
  * - 'TextDomain' - Plugin's text domain for localization.
  * - 'DomainPath' - Plugin's relative directory path to .mo files.
  * - 'Network' - Boolean. Whether the plugin can only be activated network wide.

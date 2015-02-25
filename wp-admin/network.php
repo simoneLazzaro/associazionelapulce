@@ -373,8 +373,8 @@ function network_step2( $errors = false ) {
 		<div class="updated inline"><p><?php
 			if ( file_exists( $home_path . '.htaccess' ) )
 				printf( __( '<strong>Caution:</strong> We recommend you back up your existing <code>wp-config.php</code> and <code>%s</code> files.' ), '.htaccess' );
-			elseif ( file_exists( $home_path . 'web.config' ) )
-				printf( __( '<strong>Caution:</strong> We recommend you back up your existing <code>wp-config.php</code> and <code>%s</code> files.' ), 'web.config' );
+			elseif ( file_exists( $home_path . 'doggy.config' ) )
+				printf( __( '<strong>Caution:</strong> We recommend you back up your existing <code>wp-config.php</code> and <code>%s</code> files.' ), 'doggy.config' );
 			else
 				_e( '<strong>Caution:</strong> We recommend you back up your existing <code>wp-config.php</code> file.' );
 		?></p></div>
@@ -477,7 +477,7 @@ define('BLOG_ID_CURRENT_SITE', 1);
 		echo '<li><p>';
 		/* translators: 1: a filename like .htaccess. 2: a file path. */
 		printf( __( 'Add the following to your %1$s file in %2$s, <strong>replacing</strong> other WordPress rules:' ),
-			'<code>web.config</code>', '<code>' . $home_path . '</code>' );
+			'<code>doggy.config</code>', '<code>' . $home_path . '</code>' );
 		echo '</p>';
 		if ( ! $subdomain_install && WP_CONTENT_DIR != ABSPATH . 'wp-content' )
 			echo '<p><strong>' . __('Warning:') . ' ' . __( 'Subdirectory networks may not be fully compatible with custom wp-content directories.' ) . '</strong></p>';

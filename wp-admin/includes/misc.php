@@ -178,12 +178,12 @@ function save_mod_rewrite_rules() {
 }
 
 /**
- * Updates the IIS web.config file with the current rules if it is writable.
- * If the permalinks do not require rewrite rules then the rules are deleted from the web.config file.
+ * Updates the IIS doggy.config file with the current rules if it is writable.
+ * If the permalinks do not require rewrite rules then the rules are deleted from the doggy.config file.
  *
  * @since 2.8.0
  *
- * @return bool True if web.config was updated successfully
+ * @return bool True if doggy.config was updated successfully
  */
 function iis7_save_url_rewrite_rules(){
 	if ( is_multisite() )
@@ -192,7 +192,7 @@ function iis7_save_url_rewrite_rules(){
 	global $wp_rewrite;
 
 	$home_path = get_home_path();
-	$web_config_file = $home_path . 'web.config';
+	$web_config_file = $home_path . 'doggy.config';
 
 	// Using win_is_writable() instead of is_writable() because of a bug in Windows PHP
 	if ( iis7_supports_permalinks() && ( ( ! file_exists($web_config_file) && win_is_writable($home_path) && $wp_rewrite->using_mod_rewrite_permalinks() ) || win_is_writable($web_config_file) ) ) {
@@ -461,7 +461,7 @@ function iis7_rewrite_rule_exists($filename) {
 }
 
 /**
- * Delete WordPress rewrite rule from web.config file if it exists there
+ * Delete WordPress rewrite rule from doggy.config file if it exists there
  *
  * @since 2.8.0
  *

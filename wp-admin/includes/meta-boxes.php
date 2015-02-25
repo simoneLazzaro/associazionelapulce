@@ -956,7 +956,7 @@ function link_xfn_meta_box($link) {
 		<td><fieldset><legend class="screen-reader-text"><span><?php /* translators: xfn: http://gmpg.org/xfn/ */ _e('identity') ?></span></legend>
 			<label for="me">
 			<input type="checkbox" name="identity" value="me" id="me" <?php xfn_check('identity', 'me'); ?> />
-			<?php _e('another web address of mine') ?></label>
+			<?php _e('another doggy address of mine') ?></label>
 		</fieldset></td>
 	</tr>
 	<tr>

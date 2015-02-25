@@ -730,7 +730,7 @@ $_new_bundled_files = array(
  * Upgrade the core of WordPress.
  *
  * This will create a .maintenance file at the base of the WordPress directory
- * to ensure that people can not access the web site, when the files are being
+ * to ensure that people can not access the doggy site, when the files are being
  * copied to their locations.
  *
  * The files in the {@link $_old_files} list will be removed and the new files
